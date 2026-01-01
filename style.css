@@ -1,0 +1,110 @@
+* {
+    font-family: "Roboto";
+}
+
+
+body {
+    height: 100vh;
+    overflow: visible;
+}
+
+header {
+    height: 56px;
+    width: 1200px;
+    display: inline-flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.youtubepng {
+    height: 20px;
+    width: 90px;
+    margin-left: 22px;
+}
+
+.youtube {
+    gap: 22px;
+    flex-flow: nowrap;
+    padding-left: 16px;
+}
+
+.pesquisa {
+    align-items: center;
+    height: 30px;
+    width: 404px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.usuario {
+   align-items: center;
+   margin-right: 16px;
+   gap: 25px;
+   display: flex;
+}
+
+.video {
+    width: 90%;
+    height: 469px;
+    margin-left: 40px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+#videoTitle {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 37px;
+}
+
+#ChannelInfos {
+    margin-left: 37px;
+    width: 140px;
+    height: 42px;
+}
+
+#SubscribeButton {
+    width: 159px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+#perfil {
+    border-radius: 50%;
+    width: 35px;
+}
+
+.sectionSubscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75px;
+    height: 24px;
+    margin-left: 365px;
+    gap: 20px;
+}
+
+.descricao h3 {
+  font-size: 13px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.descricao p {
+    width: 510px;
+    height: 64px;
+    margin-left: 35px;
+    color: #515151;
+    font-size: 12px;
+    text-align: justify;
+}
+
+main {
+     display: flex;
+    flex-direction: row;
+   
+}
